@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wooshop.modules.system.service.mapper.DictDetailMapper">
+
+  <!-- 通用查询结果列 -->
+
+  <sql id="Base_Column_List">
+      detail_id, dict_id, label, value, dict_sort, create_by, update_by, create_time, update_time
+  </sql>
+
+    <select id="getDictDetailsByDictName" resultType="com.wooshop.modules.system.service.dto.DictDetailDto">
+        SELECT detail.detail_id as id, dict.dict_id as "dict.id", detail.* FROM sys_dict_detail detail
+            LEFT JOIN sys_dict dict ON detail.dict_id = dict.dict_id
+        WHERE dict.name = #{dictName}
+        ORDER BY dict_sort ASC
+    </select>
+</mapper>

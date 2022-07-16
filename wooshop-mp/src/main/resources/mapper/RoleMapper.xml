@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wooshop.modules.system.service.mapper.RoleMapper">
+
+  <!-- 通用查询结果列 -->
+  <!--
+  <sql id="Base_Column_List">
+      role_id, name, level, description, data_scope, create_by, update_by, create_time, update_time
+  </sql>
+  -->
+    <select id="countByDepts" resultType="java.lang.Integer">
+        select count(1) from sys_role r, sys_roles_depts d
+        where r.role_id = d.role_id and d.dept_id in
+        <foreach item='item' index='index' collection='deptIds' open='(' separator=',' close=')'> #{item} </foreach>
+    </select>
+
+    <select id="findInMenuId" resultType="com.wooshop.modules.system.domain.Role">
+        SELECT r.* FROM sys_role r, sys_roles_menus m
+        WHERE r.role_id = m.role_id AND m.menu_id in
+        <foreach item='item' index='index' collection='menuIds' open='(' separator=',' close=')'> #{item} </foreach>
+    </select>
+
+</mapper>

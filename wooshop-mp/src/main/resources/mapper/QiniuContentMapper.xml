@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wooshop.modules.tools.service.mapper.QiniuContentMapper">
+
+  <!-- 通用查询结果列 -->
+
+  <sql id="Base_Column_List">
+      a.content_id as id, a.bucket, a.name , a.size , a.type , a.url, a.suffix , a.update_time as updateTime
+  </sql>
+
+    <select id="findByKey" resultType="com.wooshop.modules.tools.domain.QiniuContent">
+        SELECT <include refid="Base_Column_List"/> FROM tool_qiniu_content a
+        WHERE name=#{key}
+    </select>
+</mapper>

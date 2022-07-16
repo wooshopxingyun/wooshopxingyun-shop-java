@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="114.132.187.39" id="0453a2b7-4821-44b5-aa37-e09d96f7a0a8" port="22" customName="腾讯服务器_root@114.132.187.39:22" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="腾讯服务器_root@114.132.187.39:22" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

@@ -1,0 +1,17 @@
+
+j
+java:S11926"TDefine a constant instead of duplicating this literal "was not successful." 6 times.(ìƒ˜í
+J
+java:S1066^"/Merge this if statement with the enclosing one.(Ã¸›Ğúÿÿÿÿ
+J
+java:S1066~"/Merge this if statement with the enclosing one.(Á†º¹úÿÿÿÿ
+K
+java:S1066Œ"/Merge this if statement with the enclosing one.(„ëï²ùÿÿÿÿ
+>
+java:S1148I"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ŞìŸê
+h
+java:S3776M"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(×İÍÃ
+
+java:S1130{"uRemove the declaration of thrown exception 'java.util.zip.ZipException' which is a subclass of 'java.io.IOException'.(Øœ„³úÿÿÿÿ

@@ -1,0 +1,13 @@
+
+[
+java:S11245"EReorder the modifiers to comply with the Java Language Specification.(Ï©à”
+š
+java:S1192J"Define a constant instead of duplicating this literal "--------------------------------------------------------------" 3 times.(¡– Éùÿÿÿÿ
+l
+java:S3252R"OUse static access with "org.apache.commons.lang3.StringUtils" for "isNotBlank".(ßâ¯è8íéñÉ/
+q
+java:S3252Z"OUse static access with "org.apache.commons.lang3.StringUtils" for "isNotBlank".(Ôñà‰úÿÿÿÿ8íéñÉ/
+l
+java:S3252`"OUse static access with "org.apache.commons.lang3.StringUtils" for "isNotBlank".(ßâ¯è8íéñÉ/
+r
+java:S3252s"PUse static access with "org.apache.commons.lang3.StringUtils" for "isNoneBlank".(íØ‚·şÿÿÿÿ8íéñÉ/

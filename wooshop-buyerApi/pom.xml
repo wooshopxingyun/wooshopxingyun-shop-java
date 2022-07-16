@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <!-- 导入父级依赖   -->
+            <artifactId>wooshop</artifactId>
+            <groupId>com.wooshop</groupId>
+<!--            <version>0.0.1-SNAPSHOT</version>-->
+        <version>1.0</version>
+    </parent>
+
+    <groupId>com.wooshop</groupId>
+    <artifactId>wooshop-buyerApi</artifactId>
+<!--    <version>0.0.1-SNAPSHOT</version>-->
+    <version>1.0</version>
+    <name>wooshop-buyerApi</name>
+    <description>wooshop-buyerApi</description>
+
+
+
+    <properties>
+        <java.version>1.8</java.version>
+        <weixin-java.version>4.1.0</weixin-java.version>
+    </properties>
+    <dependencies>
+
+        <!--<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>-->
+
+        <dependency>
+            <groupId>com.wooshop</groupId>
+            <artifactId>wooshop-service</artifactId>
+<!--            <version>0.0.1-SNAPSHOT</version>-->
+            <version>1.0</version>
+            <!--<exclusions>
+                <exclusion>
+                    <artifactId>wooshop-mp</artifactId>
+                    <groupId>com.wooshop</groupId>
+                </exclusion>
+            </exclusions>-->
+        </dependency>
+        <!-- 引入uniapp端业务模块 -->
+        <!--<dependency>
+            <groupId>com.wooshop</groupId>
+            <artifactId>wooshop-uniapp</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>-->
+
+
+
+
+
+
+
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.3.7.RELEASE</version>
+                <configuration>
+                    <includeSystemScope>true</includeSystemScope>
+                </configuration>
+
+            </plugin>
+            <!-- 跳过单元测试 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

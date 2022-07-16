@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="17af95bb-4d89-4384-a513-979a930b4a78" name="wooshop">
+        <fileTransfer accessType="SFTP" host="114.132.187.39" port="22" sshConfigId="0453a2b7-4821-44b5-aa37-e09d96f7a0a8" sshConfig="腾讯服务器_root@114.132.187.39:22">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>wooshop</artifactId>
+        <groupId>com.wooshop</groupId>
+<!--        <version>0.0.1-SNAPSHOT</version>-->
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>wooshop-service</artifactId>
+    <name>service公共服务模块</name>
+    <properties>
+<!--        <java.version>1.8</java.version>-->
+<!--        <weixin-java.version>4.1.0</weixin-java.version>-->
+    </properties>
+
+    <dependencies>
+        <!-- 引入mp基础模块 -->
+        <dependency>
+            <groupId>com.wooshop</groupId>
+            <artifactId>wooshop-mp</artifactId>
+<!--            <version>0.0.1-SNAPSHOT</version>-->
+            <version>1.0</version>
+        </dependency>
+        <!--  微信工具类  -->
+        <!--<dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-mp</artifactId>
+            <version>${weixin-java.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-pay</artifactId>
+            <version>${weixin-java.version}</version>
+        </dependency>-->
+
+
+        <!--<dependency>
+            <groupId>com.wooshop</groupId>
+            <artifactId>wooshop-uniapp</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.wooshop</groupId>
+                    <artifactId>wooshop-generator</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>-->
+
+        <!--  模板引擎可以用在发送短信,极光推送,邮件等业务场景中      -->
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity-engine-core</artifactId>
+            <version>2.0</version>
+        </dependency>
+        <!--   二维码解析     -->
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>core</artifactId>
+            <version>3.3.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-core</artifactId>
+            <version>4.0.3</version>
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.wooshop</groupId>-->
+<!--            <artifactId>wooshop-buyerApi</artifactId>-->
+<!--            <version>1.0</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
+    </dependencies>
+</project>

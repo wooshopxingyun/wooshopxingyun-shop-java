@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wooshop.service.mapper.ColumnInfoMapper">
+
+  <!-- 通用查询结果列 -->
+  <!--
+  <sql id="Base_Column_List">
+      a.app_id, a.name, a.upload_path, a.deploy_path, a.backup_path, a.port, a.start_script, a.deploy_script, a.create_by, a.update_by, a.create_time, a.update_time
+  </sql>
+  -->
+    <select id="getTables" resultType="com.wooshop.domain.vo.TableInfo">
+        select table_name ,create_time , engine, table_collation, table_comment
+        from information_schema.tables
+        where table_schema = (select database())
+        order by create_time desc
+    </select>
+
+    <select id="getTablesTotal" resultType="java.lang.Integer">
+        SELECT COUNT(*) from information_schema.tables where table_schema = (select database())
+    </select>
+
+    <select id="selectPageOfTables" resultType="com.wooshop.domain.vo.TableInfo">
+        select table_name ,create_time , engine, table_collation, table_comment from information_schema.tables
+        where table_schema = (select database())
+        and table_name like #{name} order by create_time desc
+    </select>
+    <select id="queryColumnInfo" resultType="com.wooshop.domain.ColumnInfo">
+        select '${tableName}' as table_name, column_name, if(is_nullable='NO',true, false) as not_null, data_type as column_type,
+           column_comment as remark, column_key as key_type, extra
+        from information_schema.columns
+        where table_name = #{tableName} and table_schema = (select database()) order by ordinal_position
+    </select>
+</mapper>

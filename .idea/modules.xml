@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/wooshop.iml" filepath="$PROJECT_DIR$/wooshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wooshop-buyerApi/wooshop-buyerApi.iml" filepath="$PROJECT_DIR$/wooshop-buyerApi/wooshop-buyerApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wooshop-common/wooshop-common.iml" filepath="$PROJECT_DIR$/wooshop-common/wooshop-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wooshop-generator/wooshop-generator.iml" filepath="$PROJECT_DIR$/wooshop-generator/wooshop-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wooshop-logging/wooshop-logging.iml" filepath="$PROJECT_DIR$/wooshop-logging/wooshop-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wooshop-mp/wooshop-mp.iml" filepath="$PROJECT_DIR$/wooshop-mp/wooshop-mp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wooshop-service/wooshop-service.iml" filepath="$PROJECT_DIR$/wooshop-service/wooshop-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wooshop-system/wooshop-system.iml" filepath="$PROJECT_DIR$/wooshop-system/wooshop-system.iml" />
+    </modules>
+  </component>
+</project>

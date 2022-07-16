@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wooshop.modules.quartz.service.mapper.QuartzJobMapper">
+
+  <!-- 通用查询结果列 -->
+  <!--
+  <sql id="Base_Column_List">
+      a.job_id, a.bean_name, a.cron_expression, a.is_pause, a.job_name, a.method_name, a.params, a.description, a.person_in_charge, a.email, a.sub_task, a.pause_after_failure, a.create_by, a.update_by, a.create_time, a.update_time
+  </sql>
+  -->
+    <select id="findByIsPauseIsFalse" resultType="com.wooshop.modules.quartz.domain.QuartzJob">
+        SELECT * from sys_quartz_job WHERE is_pause = 0
+    </select>
+</mapper>

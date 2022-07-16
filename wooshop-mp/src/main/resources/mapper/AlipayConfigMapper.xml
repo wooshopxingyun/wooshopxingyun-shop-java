@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wooshop.modules.tools.service.mapper.AlipayConfigMapper">
+
+  <!-- 通用查询结果列 -->
+  <!--
+  <sql id="Base_Column_List">
+      a.config_id, a.app_id, a.charset, a.format, a.gateway_url, a.notify_url, a.private_key, a.public_key, a.return_url, a.sign_type, a.sys_service_provider_id
+  </sql>
+  -->
+</mapper>

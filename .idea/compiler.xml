@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wooshop-common" />
+        <module name="wooshop-mp" />
+        <module name="wooshop-buyerApi" />
+        <module name="wooshop-system" />
+        <module name="wooshop-service" />
+        <module name="wooshop-logging" />
+        <module name="wooshop-generator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="wooshop" target="1.8" />
+      <module name="wooshop-api" target="1.8" />
+      <module name="wooshop-buyerApi" target="1.8" />
+      <module name="wooshop-common" target="1.8" />
+      <module name="wooshop-generator" target="1.8" />
+      <module name="wooshop-logging" target="1.8" />
+      <module name="wooshop-mp" target="1.8" />
+      <module name="wooshop-service" target="1.8" />
+      <module name="wooshop-system" target="1.8" />
+      <module name="wooshop-tools" target="1.8" />
+      <module name="wooshop-uniapp" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="wooshop" options="-parameters" />
+      <module name="wooshop-api" options="-parameters" />
+      <module name="wooshop-buyerApi" options="-parameters" />
+      <module name="wooshop-common" options="-parameters" />
+      <module name="wooshop-generator" options="-parameters" />
+      <module name="wooshop-logging" options="-parameters" />
+      <module name="wooshop-mp" options="-parameters" />
+      <module name="wooshop-service" options="-parameters" />
+      <module name="wooshop-system" options="-parameters" />
+      <module name="wooshop-tools" options="-parameters" />
+      <module name="wooshop-uniapp" options="-parameters" />
+    </option>
+  </component>
+</project>

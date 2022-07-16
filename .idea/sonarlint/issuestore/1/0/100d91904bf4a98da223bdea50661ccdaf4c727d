@@ -1,0 +1,6 @@
+
+_
+java:S3252Z"JUse static access with "cn.hutool.core.collection.CollUtil" for "isEmpty".(Îô
+\	java:S112¯"FDefine and throw a dedicated exception instead of using a generic one.(¬è­µ
+`	java:S112u"FDefine and throw a dedicated exception instead of using a generic one.(ô‹ºıÿÿÿÿ
+[	java:S112˜"FDefine and throw a dedicated exception instead of using a generic one.(ÖÖ²I

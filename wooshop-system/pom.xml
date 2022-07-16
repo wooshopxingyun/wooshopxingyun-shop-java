@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.wooshop</groupId>
+    <artifactId>wooshop-system</artifactId>
+<!--    <version>0.0.1-SNAPSHOT</version>-->
+    <version>1.0</version>
+    <name>wooshop-system</name>
+    <description>Demo project for Spring Boot</description>
+
+    <!-- 导入父级依赖   -->
+    <parent>
+        <artifactId>wooshop</artifactId>
+        <groupId>com.wooshop</groupId>
+<!--        <version>0.0.1-SNAPSHOT</version>-->
+        <version>1.0</version>
+    </parent>
+
+
+
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <spring-boot.version>2.3.7.RELEASE</spring-boot.version>
+
+
+
+            <!-- oshi监控需要指定jna版本, 问题详见 https://github.com/oshi/oshi/issues/1040 -->
+            <oshi.version>5.8.0</oshi.version>
+            <jna.version>5.8.0</jna.version>
+
+    </properties>
+
+    <dependencies>
+        <!-- 代码生成模块 -->
+        <!-- <dependency>
+             <groupId>com.wooshop</groupId>
+             <artifactId>wooshop-generator</artifactId>
+             <version>0.0.1-SNAPSHOT</version>
+             <exclusions>
+                 <exclusion>
+                     <groupId>com.wooshop</groupId>
+                     <artifactId>wooshop-common</artifactId>
+                 </exclusion>
+             </exclusions>
+        </dependency>-->
+
+        <!--   mapper模块     -->
+        <!--<dependency>
+            <groupId>com.wooshop</groupId>
+            <artifactId>wooshop-mp</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>-->
+        <!--Spring boot 安全框架-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <!--  代码生成模块  -->
+        <dependency>
+            <groupId>com.wooshop</groupId>
+            <artifactId>wooshop-generator</artifactId>
+<!--            <version>0.0.1-SNAPSHOT</version>-->
+            <version>1.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.wooshop</groupId>
+                    <artifactId>wooshop-common</artifactId>
+
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!--   wooshop-service模块     -->
+        <dependency>
+            <groupId>com.wooshop</groupId>
+            <artifactId>wooshop-service</artifactId>
+<!--            <version>0.0.1-SNAPSHOT</version>-->
+            <version>1.0</version>
+        </dependency>
+
+        <!-- tools 模块包含了 common 和 logging 模块 -->
+        <!--<dependency>
+            <groupId>com.wooshop</groupId>
+            <artifactId>wooshop-tools</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>-->
+
+        <!-- Spring boot websocket -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
+        </dependency>
+
+
+
+
+
+
+
+        <!-- 获取系统信息 -->
+        <dependency>
+            <groupId>com.github.oshi</groupId>
+            <artifactId>oshi-core</artifactId>
+            <version>${oshi.version}</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+
+    <!-- 打包 -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.3.7.RELEASE</version>
+                <configuration>
+                    <includeSystemScope>true</includeSystemScope>
+                </configuration>
+
+            </plugin>
+            <!-- 跳过单元测试 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <!--<dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.3.7.RELEASE</version>
+                <configuration>
+                    <mainClass>com.wooshop.WooshopSystemApplication</mainClass>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>repackage</id>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>-->
+
+</project>

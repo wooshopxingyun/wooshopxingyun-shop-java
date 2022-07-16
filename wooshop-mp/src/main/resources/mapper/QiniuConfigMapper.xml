@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wooshop.modules.tools.service.mapper.QiniuConfigMapper">
+
+  <!-- 通用查询结果列 -->
+  <!--
+  <sql id="Base_Column_List">
+      a.config_id, a.access_key, a.bucket, a.host, a.secret_key, a.type, a.zone
+  </sql>
+  -->
+    <update id="updateType">
+        UPDATE tool_qiniu_config SET type=#{type} WHERE config_id=1
+    </update>
+</mapper>

@@ -1,0 +1,23 @@
+
+n	java:S1164"YRename this field "FILE_SEPARATOR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œè‘“
+f	java:S117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ü‚h
+<
+java:S1170A"!Make this final field static too.(ÃßüÛûÿÿÿÿ
+€
+java:S1192Ò"dDefine a constant instead of duplicating this literal "IPå¯¹åº”æœåŠ¡å™¨ä¿¡æ¯ä¸å­˜åœ¨ï¼š" 4 times.(ÿáÑÅüÿÿÿÿ
+]
+java:S2184…"FCast one of the operands of this multiplication operation to a "long".(¡Ê©Ü
+]
+java:S2142†"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+h
+java:S1192ı"LDefine a constant instead of duplicating this literal "<br>åº”ç”¨:" 5 times.( ¹ˆüÿÿÿÿ
+f	java:S117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ü‚h
+H
+java:S2692Õ"10 is a valid index, but is ignored by this check.(—ı•Ä
+7
+java:S11704"!Make this final field static too.(Œè‘“
+l	java:S117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¬Áóùÿÿÿÿ
+M
+java:S2692²"10 is a valid index, but is ignored by this check.(’œ‘êüÿÿÿÿ
+a
+java:S1192Ù"JDefine a constant instead of duplicating this literal "mkdir -p " 4 times.(ûàäí
