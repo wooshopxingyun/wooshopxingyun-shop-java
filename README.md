@@ -15,7 +15,7 @@
 |  支付宝小程序 | 预计7月底完成适配  |
 |  快手小程序 |  预计7月底完成适配 |
 |  飞书小程序 | 预计7月底完成适配  |
-| Android  |   |
+| Android  |  https://demo.h5.wooshopxingyun.com/wooshopxingyun_anz.apk |
 | 360小程序  | 预计7月底完成适配  |
 | 快应用  | 预计7月底完成适配  |
 
