@@ -4,10 +4,17 @@
 星云基于当前流行技术组合的前后端分离商城系统： SpringBoot2+MybatisPlus+SpringSecurity+jwt+redis+Vue的前后端分离的商城系统， 包含商品分类、商品sku、运费模板、素材库、小程序支付、拼团活动、砍价活动、商户管理、 秒杀活动、优惠券、积分、分销、会员、充值、多门店等功能，更适合企业或个人二次开发；
 
 
-
+|  演示地址 |   |
 |---|---|
-| 管理后台演示地址：  |   https://demo.admin.wooshopxingyun.com |
-| 关注公众号点击单商户体验小程序与H5  |  ![输入图片说明](https://images.gitee.com/uploads/images/2022/0716/181533_d9daa086_11349112.jpeg "qrcode_for_gh_34624ccb5486_258.jpg") |
+| 管理后台演示地址：    |  https://demo.admin.wooshopxingyun.com |
+| 关注公众号点击单商户体验微信小程序与H5  | ![输入图片说明](https://images.gitee.com/uploads/images/2022/0716/181533_d9daa086_11349112.jpeg "qrcode_for_gh_34624ccb5486_258.jpg")  |
+|  微信小程序 |   |
+|  qq小程序 |   |
+|  抖音小程序 |   |
+|   |   |
+|   |   |
+|   |   |[输入链接说明](http://)
+
 
 #### 核心依赖
 
