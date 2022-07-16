@@ -67,10 +67,10 @@ Idea、webstorm、vscode
 ## 相关截图
 
 ### 1. 后台截图
-![输入图片说明](%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205731.png)
-![输入图片说明](%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205758.png)
-![输入图片说明](%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205812.png)
-![输入图片说明](%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205828.png)
+![输入图片说明](wooshop-system/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205731.png)
+![输入图片说明](wooshop-system/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205758.png)
+![输入图片说明](wooshop-system/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205812.png)
+![输入图片说明](wooshop-system/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205828.png)
 ### 2.移动端截图
 ![输入图片说明](%E6%9C%AA%E6%A0%87%E9%A2%98-1.png)
 ![输入图片说明](%E6%9C%AA%E6%A0%87%E9%A2%98-2.png)
