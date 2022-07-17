@@ -1,7 +1,7 @@
 <h1 style="text-align: center">星云商城系统</h1>
 
 #### 项目简介
- 星云商城 电商 java商城系统 Uniapp ios+安卓+H5+微信小程序+微信公众号+QQ小程序+抖音小程序+支付宝小程序+百度小程序+快手小程序+飞书小程序 星云基于当前流行技术组合的前后端分离商城系统： SpringBoot2+MybatisPlus+SpringSecurity+jwt+redis+Vue的前后端分离的商城系统， 包含商品分类、商品sku、运费模板、素材库、小程序支付、拼团活动、砍价活动、商户管理、 秒杀活动、优惠券、积分、分销、会员、充值、多门店等功能，更适合企业或个人二次开发；
+星云基于当前流行技术组合的前后端分离商城系统： SpringBoot2+MybatisPlus+SpringSecurity+jwt+redis+Vue的前后端分离的商城系统， 包含商品分类、商品sku、运费模板、素材库、小程序支付、拼团活动、砍价活动、商户管理、 秒杀活动、优惠券、积分、分销、会员、充值、多门店等功能，更适合企业或个人二次开发；
 
 ###预计8月10号开源
 #### 官方技术QQ群：826692261
@@ -9,9 +9,9 @@
 |---|---|
 | 管理后台演示地址：账号:test 密码:123456    |  https://demo.admin.wooshopxingyun.com |
 | 关注公众号点击单商户体验微信小程序与H5  | ![输入图片说明](wooshop-system/qrcode_for_gh_34624ccb5486_258.jpg) |
-|  微信小程序 |  ![输入图片说明](gh_99c8025b8c5b_258%20(1).jpg) |
-|  qq小程序 |  ![输入图片说明](qq%E5%B0%8F%E7%A8%8B%E5%BA%8F.png) |
-|  抖音小程序 | ![输入图片说明](zijietiaodon.png)  |
+|  微信小程序 |  ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/gh_99c8025b8c5b_258%20(1).jpg) |
+|  qq小程序 | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/qqcode.png)  |
+|  抖音小程序 | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/zijietiaodon.png)  |
 | 百度小程序  | 预计7月底完成适配  |
 |  支付宝小程序 | 预计7月底完成适配  |
 |  快手小程序 |  预计7月底完成适配 |
@@ -68,13 +68,13 @@ Idea、webstorm、vscode
 ## 相关截图
 
 ### 1. 后台截图
-![输入图片说明](wooshop-system/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205731.png)
-![输入图片说明](wooshop-system/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205758.png)
-![输入图片说明](wooshop-system/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205812.png)
-![输入图片说明](wooshop-system/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205828.png)
+![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205731.png)
+![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205758.png)
+![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205812.png)
+![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205828.png)
 ### 2.移动端截图
-![输入图片说明](%E6%9C%AA%E6%A0%87%E9%A2%98-1.png)
-![输入图片说明](%E6%9C%AA%E6%A0%87%E9%A2%98-2.png)
+![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png)
+![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/%E6%9C%AA%E6%A0%87%E9%A2%98-2.png)
 
 #### 安装教程
 
