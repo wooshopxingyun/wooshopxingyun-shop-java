@@ -15,7 +15,7 @@
 |  抖音小程序 | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/zijietiaodon.png)  |
 | 百度小程序  | 预计7月底完成适配  |
 |  支付宝小程序 | 已经适配 需要体验联系qq客服:97437471  |
-|  快手小程序 |  预计7月底完成适配 |
+|  快手小程序 |  ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/kuaishou.png) |
 |  飞书小程序 | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/feishu.png)    |
 | 钉钉小程序  | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/dindin.png)      |
 | 360小程序  | 预计7月底完成适配  |
