@@ -13,9 +13,9 @@
 |  qq小程序 | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/qqcode.png)  |
 |  抖音小程序 | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/zijietiaodon.png)  |
 | 百度小程序  | 预计7月底完成适配  |
-|  支付宝小程序 | 预计7月底完成适配  |
+|  支付宝小程序 | 已经适配 需要体验联系qq客服:97437471  |
 |  快手小程序 |  预计7月底完成适配 |
-|  飞书小程序 | 预计7月底完成适配  |
+|  飞书小程序 | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/feishu.png)     |
 | Android  |  https://demo.h5.wooshopxingyun.com/wooshopxingyun_anz.apk |
 | 360小程序  | 预计7月底完成适配  |
 | 快应用  | 预计7月底完成适配  |
