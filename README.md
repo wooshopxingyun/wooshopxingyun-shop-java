@@ -4,13 +4,14 @@
 星云基于当前流行技术组合的前后端分离商城系统： SpringBoot2+MybatisPlus+SpringSecurity+jwt+redis+Vue的前后端分离的商城系统， 包含商品分类、商品sku、运费模板、素材库、小程序支付、拼团活动、砍价活动、商户管理、 秒杀活动、优惠券、积分、分销、会员、充值、多门店等功能，更适合企业或个人二次开发；
 
 
-###预计9月10号开源
+###pc端商城已经开发完成
+###接下来会继续优化系统现有功能
 <h3 style="text-align: center">开发计划: pc端模板预计9月初完成开发,目前已完成85%</h3>
 
 #### 官方技术QQ群：826692261
-|  演示地址 |   |
+|  PC商城演示地址 | https://demo.admin.wooshopxingyun.com/buyerHome  |
 |---|---|
-| 管理后台演示地址：账号:test 密码:123456    |  https://demo.admin.wooshopxingyun.com |
+| 管理后台演示地址：账号:test 密码:123456    |  https://demo.admin.wooshopxingyun.com/login |
 | Android  |  https://demo.h5.wooshopxingyun.com/wooshopxingyun_anz.apk |
 | 关注公众号点击单商户体验微信小程序与H5  | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/qrcode_for_gh_34624ccb5486_258.jpg) |
 |  微信小程序 |  ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/gh_99c8025b8c5b_258%20(1).jpg) |
