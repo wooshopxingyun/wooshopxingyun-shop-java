@@ -7,7 +7,7 @@
 <h3 style="text-align: center">开发计划: pc端模板预计9月初完成开发,目前已完成85%</h3>
 
 #### 官方技术QQ群：826692261
-|  演示地址 |   |
+|  PC商城演示地址 |  https://demo.admin.wooshopxingyun.com/buyerHome |
 |---|---|
 | 管理后台演示地址：账号:test 密码:123456    |  https://demo.admin.wooshopxingyun.com/login |
 | Android  |  https://demo.h5.wooshopxingyun.com/wooshopxingyun_anz.apk |
