@@ -9,7 +9,7 @@
 #### 官方技术QQ群：826692261
 |  演示地址 |   |
 |---|---|
-| 管理后台演示地址：账号:test 密码:123456    |  https://demo.admin.wooshopxingyun.com |
+| 管理后台演示地址：账号:test 密码:123456    |  https://demo.admin.wooshopxingyun.com/login |
 | Android  |  https://demo.h5.wooshopxingyun.com/wooshopxingyun_anz.apk |
 | 关注公众号点击单商户体验微信小程序与H5  | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/qrcode_for_gh_34624ccb5486_258.jpg) |
 |  微信小程序 |  ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/gh_99c8025b8c5b_258%20(1).jpg) |
