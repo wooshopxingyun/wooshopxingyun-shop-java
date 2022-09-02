@@ -7,7 +7,7 @@
 ###接下来会继续优化系统现有功能
 <h3 style="text-align: center">开发计划: pc端模板预计9月初完成开发,目前已完成85%</h3>
 
-#### 官方技术QQ群：826692261
+### 官方技术QQ交流群 (入群前，请在网页右上角点 "Star" )：826692261
 |  PC商城演示地址 |  https://demo.admin.wooshopxingyun.com/buyerHome |
 |---|---|
 | 管理后台演示地址：账号:test 密码:123456    |  https://demo.admin.wooshopxingyun.com/login |
@@ -17,6 +17,14 @@
 | 快应用  | 已完成适配  |
 #### 演示二维码
  ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/yanshicode.png)
+
+### 小程序端截图
+
+| ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/yidon-1.png "在这里输入图片标题") | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/yidon-2.png "在这里输入图片标题") |
+| ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/yidon-3.png "在这里输入图片标题")                     | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/yidon-4.png "在这里输入图片标题")                     |
+
+
 
 #### 核心依赖
 
