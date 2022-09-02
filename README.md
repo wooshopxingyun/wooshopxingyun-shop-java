@@ -13,17 +13,10 @@
 | 管理后台演示地址：账号:test 密码:123456    |  https://demo.admin.wooshopxingyun.com/login |
 | Android  |  https://demo.h5.wooshopxingyun.com/wooshopxingyun_anz.apk |
 | 关注公众号点击单商户体验微信小程序与H5  | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/qrcode_for_gh_34624ccb5486_258.jpg) |
-|  微信小程序 |  ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/gh_99c8025b8c5b_258%20(1).jpg) |
-|  qq小程序 | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/qqcode.png)  |
-|  抖音小程序 | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/zijietiaodon.png)  |
-| 百度小程序  | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/baidu.png)   |
-|  支付宝小程序 | 已经适配 需要体验联系qq客服:97437471  |
-|  快手小程序 |  ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/kuaishou.png) |
-|  飞书小程序 | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/feishu.png)    |
-| 钉钉小程序  | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/dindin.png)      |
 | 360小程序  | 已完成适配  |
 | 快应用  | 已完成适配  |
-
+#### 演示二维码
+ ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/yanshicode.png)
 
 #### 核心依赖
 
