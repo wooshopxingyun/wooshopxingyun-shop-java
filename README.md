@@ -9,11 +9,12 @@
 |---|---|
 | 管理后台演示地址：账号:test 密码:123456    |  https://demo.admin.wooshopxingyun.com/login |
 | Android  |  https://demo.h5.wooshopxingyun.com/wooshopxingyun_anz.apk |
+#### 演示二维码
+ ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/yanshicode.png)
+
 | 关注公众号  | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/qrcode_for_gh_34624ccb5486_258.jpg) |
 | 360小程序  | 已完成适配  |
 | 快应用  | 已完成适配  |
-#### 演示二维码
- ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/yanshicode.png)
 
 ### 小程序端截图
 
