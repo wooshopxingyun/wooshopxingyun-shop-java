@@ -84,22 +84,50 @@ Idea、webstorm、vscode
 
 
 
-## 相关截图
+### 安装教程
+#### 后台系统工程（JAVA端）
+1.  确保redis、jdk、已经安装启动
+2.  下载代码
+```
+git clone https://gitee.com/xingyunshop/xingyunshopjava.git
+```
+3.  使用idea打开项目目录如下:
+[如图片]
+4.  将数据库文件导入数据库,修改配置信息:redis、mysql:
+[如图片]
+5.  输入命令 mvn clean install 或者用idea工具操作:
+[如图片]
+3.  启动程序，启动程序路径如下：
+[如图片]
 
-### 1. 后台截图
-![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205731.png)
-![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205758.png)
-![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205812.png)
-![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220716205828.png)
-### 2.移动端截图
-![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png)
-![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/%E6%9C%AA%E6%A0%87%E9%A2%98-2.png)
+#### 后台前端工程（VUE端）
+1. 请确保本地系统已经安装node,建议node8或者node10以上
+2. 拉取代码
+```
+git clone https://gitee.com/xingyunshop/xingyunshopjava.git
+```
+3. 前端工程目录结构如下:
+[如图片]
+4. 修改配置信息:
+[如图片]
+5. 在目录根部输入cnpm install或者yarn install:
+[如图片]
+6. 安装依赖失败:
+```
+npm config set registry https://registry.npm.taobao.org
+配置后可通过下面方式来验证是否成功
+npm config get registry
 
-#### 安装教程
+在 ~/.npmrc 加入下面内容，可以避免安装 node-sass 失败
+sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+.npmrc 文件位于
+win：C:\Users\[你的账户名称]\.npmrc
+linux：直接使用 vi ~/.npmrc
+```
+7. 执行第五步骤成功后,在控制台输入命令：npm run dev，控制台打印出如下画面，恭喜表示本项目启动成功拉。
+[如图片]
+
 
 #### 使用说明
 
