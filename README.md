@@ -46,16 +46,6 @@
 | hutool          | 5.7.22 |
 | swagger         | 3.0.0  |
 
-# 本地安装
-### 基本环境（必备）
-- 1、JDK：8+
-- 2、Redis 3.0+
-- 3、Maven 3.0+
-- 4、MYSQL 5.7+
-- 5、Node v8+
-### 开发工具
-Idea、webstorm、vscode
-
 ### 技术选型
 * 1 后端使用技术
     * 1.1 SpringBoot2
@@ -77,6 +67,19 @@ Idea、webstorm、vscode
     * 2.1 Vue 全家桶
     * 2.2 Element
     * 2.3 uniapp
+
+
+
+# 本地安装
+### 基本环境（必备）
+- 1、JDK：8+
+- 2、Redis 3.0+
+- 3、Maven 3.0+
+- 4、MYSQL 5.7+
+- 5、Node v8+
+### 开发工具
+Idea、webstorm、vscode
+
 
 
 ## 相关截图
