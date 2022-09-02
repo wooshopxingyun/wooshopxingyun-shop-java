@@ -12,6 +12,7 @@
 #### 演示二维码
  ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/yanshicode.png)
 
+|---|---|
 | 关注公众号  | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/qrcode_for_gh_34624ccb5486_258.jpg) |
 | 360小程序  | 已完成适配  |
 | 快应用  | 已完成适配  |
