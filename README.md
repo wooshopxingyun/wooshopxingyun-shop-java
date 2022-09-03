@@ -149,5 +149,11 @@ linux：直接使用 vi ~/.npmrc
 
 ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/banquan.png "在这里输入图片标题")   
 
-#### 特别感谢
+特别鸣谢
+- eladmin:https://github.com/elunez/eladmin
+- mybaitsplus:https://github.com/baomidou/mybatis-plus
+- hutool:https://github.com/looly/hutool
+- wxjava:https://github.com/Wechat-Group/WxJava
+- vue:https://github.com/vuejs/vue
+- element:https://github.com/ElemeFE/element
 
