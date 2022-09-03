@@ -129,20 +129,6 @@ linux：直接使用 vi ~/.npmrc
 [如图片]
 
 
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
 ### 商业授权
 商业版本比开源版本跟丰富,商业版提供安装教程、开发文档、操作手册、会员qq交流群。
 
@@ -161,11 +147,7 @@ linux：直接使用 vi ~/.npmrc
 
 4.限制商用，如果需要商业使用请联系我们。QQ97437471.或者加入qq群联系群主。
 
-#### 特技
+![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/banquan.png "在这里输入图片标题")   
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### 特别感谢
+
