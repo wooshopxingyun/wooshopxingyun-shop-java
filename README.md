@@ -178,5 +178,3 @@ linux：直接使用 vi ~/.npmrc
 - wxjava:https://github.com/Wechat-Group/WxJava
 - vue:https://github.com/vuejs/vue
 - element:https://github.com/ElemeFE/element
-
->>>>>>> 0709d8f26005487aed9a2353530d7c887acba86f
