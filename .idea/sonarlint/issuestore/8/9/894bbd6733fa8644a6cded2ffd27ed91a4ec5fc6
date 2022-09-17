@@ -1,13 +1,0 @@
-
-_
-java:S1192&"IDefine a constant instead of duplicating this literal "updateBy" 4 times.(Ó‘¦…
-:
-java:S18720"Use "isAssignableFrom" instead.(¿Ñì½þÿÿÿÿ
-`
-java:S1192"KDefine a constant instead of duplicating this literal "createTime" 4 times.(§Ü±I
-a
-java:S1192"KDefine a constant instead of duplicating this literal "updateTime" 8 times.(¿ë¾Û
-:
-java:S1872"Use "isAssignableFrom" instead.(¿Ñì½þÿÿÿÿ
-:
-java:S1872 "Use "isAssignableFrom" instead.(¿Ñì½þÿÿÿÿ

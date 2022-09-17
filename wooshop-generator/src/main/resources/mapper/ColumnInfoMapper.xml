@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.wooshop.service.mapper.ColumnInfoMapper">
+<mapper namespace="com.wooshop.modules.service.mapper.ColumnInfoMapper">
 
-  <!-- 通用查询结果列 -->
-  <!--
-  <sql id="Base_Column_List">
-      a.app_id, a.name, a.upload_path, a.deploy_path, a.backup_path, a.port, a.start_script, a.deploy_script, a.create_by, a.update_by, a.create_time, a.update_time
-  </sql>
-  -->
+    <!-- 通用查询结果列 -->
+    <!--
+    <sql id="Base_Column_List">
+        a.app_id, a.name, a.upload_path, a.deploy_path, a.backup_path, a.port, a.start_script, a.deploy_script, a.create_by, a.update_by, a.create_time, a.update_time
+    </sql>
+    -->
     <select id="getTables" resultType="com.wooshop.domain.vo.TableInfo">
-        select table_name ,create_time , engine, table_collation, table_comment
+        select table_name, create_time, engine, table_collation, table_comment
         from information_schema.tables
         where table_schema = (select database())
         order by create_time desc

@@ -9,7 +9,7 @@ import com.wooshop.utils.ValidationUtil;
 import com.wooshop.utils.FileUtil;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import com.wooshop.common.service.impl.BaseServiceImpl;
+import com.wooshop.modules.service.impl.BaseServiceImpl;
 import lombok.AllArgsConstructor;
 import java.io.IOException;
 import org.springframework.transaction.annotation.Propagation;

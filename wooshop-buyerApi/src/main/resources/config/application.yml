@@ -9,7 +9,7 @@ spring:
 #  cache:
 #    type: redis
   profiles:
-    active: prod
+    active: dev
   jackson:
     time-zone: GMT+8
   data:

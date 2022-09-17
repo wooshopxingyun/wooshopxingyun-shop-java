@@ -7,13 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="wooshop-common" />
-        <module name="wooshop-mp" />
         <module name="wooshop-buyerApi" />
-        <module name="wooshop-system" />
-        <module name="wooshop-service" />
-        <module name="wooshop-logging" />
-        <module name="wooshop-generator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

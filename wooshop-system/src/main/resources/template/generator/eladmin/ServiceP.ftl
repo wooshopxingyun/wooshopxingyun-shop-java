@@ -8,7 +8,7 @@ import java.util.List;
 import java.io.IOException;
 import ${package}.service.dto.${className}Dto;
 import org.springframework.data.domain.Pageable;
-import com.wooshop.common.service.BaseService;
+import com.wooshop.modules.service.BaseService;
 
 import com.wooshop.domain.PageResult;
 import ${package}.domain.${className};

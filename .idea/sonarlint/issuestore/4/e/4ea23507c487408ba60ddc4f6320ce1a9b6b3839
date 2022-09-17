@@ -1,18 +1,0 @@
-
-g	java:S112:"FDefine and throw a dedicated exception instead of using a generic one.(š¬†Šøÿÿÿÿ8ç¼İÉ/
-W
-java:S1118":Add a private constructor to hide the implicit public one.(şûäú8ç¼İÉ/
-w
-java:S3252¶"TUse static access with "cn.hutool.core.text.CharSequenceUtil" for "toUnderlineCase".(²á¯Èùÿÿÿÿ8ç¼İÉ/
-g	java:S112B"FDefine and throw a dedicated exception instead of using a generic one.(ùñÚ°øÿÿÿÿ8ç¼İÉ/
-o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 78 to the 15 allowed.(öÖü8ç¼İÉ/
-T
-java:S1135"2Complete the task associated to this TODO comment.(ôÓ¶³ûÿÿÿÿ8ç¼İÉ/
-j
-java:S3252'"MUse static access with "cn.hutool.core.collection.CollUtil" for "isNotEmpty".(òæ8ç¼İÉ/
-u	java:S135M"YReduce the total number of break and continue statements in this loop to use at most one.(¼ßğ¥8ç¼İÉ/
-n
-java:S3252T"LUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isBlank".(Ã‘¬ÿÿÿÿÿ8ç¼İÉ/
-Q
-java:S10662"/Merge this if statement with the enclosing one.(²ëÅ›şÿÿÿÿ8ç¼İÉ/

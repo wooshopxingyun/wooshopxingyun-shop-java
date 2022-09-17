@@ -6,7 +6,7 @@ spring:
       #driverClassName: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
       driverClassName: com.mysql.cj.jdbc.Driver
       #url: jdbc:log4jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:elaadmin}?serverTimezone=GMT%2B8&characterEncoding=utf8&useSSL=false
-      url: jdbc:mysql://127.0.0.1:3306/wooshop?serverTimezone=GMT%2B8&characterEncoding=utf8&useSSL=false
+      url: jdbc:mysql://127.0.0.1:3306/wooxinyunshop?serverTimezone=GMT%2B8&characterEncoding=utf8&useSSL=false
       username: root
       password: 123456
       # 初始连接数
