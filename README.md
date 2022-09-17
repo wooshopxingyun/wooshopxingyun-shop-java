@@ -51,7 +51,7 @@
 
 | 依赖              | 版本     |
 |-----------------|--------|
-| Spring Boot     | 2.7.1  |
+| Spring Boot     | 2.5.5  |
 | weixin-java     | 4.3.0  |
 | Spring Security | 2.7.1  |
 | Mybatis Plus    | 3.5.2  |
