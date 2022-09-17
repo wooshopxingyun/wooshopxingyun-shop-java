@@ -4,7 +4,6 @@ package com.wooshop.modules.wooshop_wechat_menu.rest;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.wooshop.config.WeiXinMpConfiguration;
 import com.wooshop.exception.BadRequestException;
 import com.wooshop.modules.wooshop_wechat_menu.service.dto.WooshopWechatMenuQueryCriteria;
 import java.util.Arrays;
@@ -74,7 +73,7 @@ public class WooshopWechatMenuController {
                 .eq(WooshopWechatMenu::getNameKey, WooshopConstants.WECHAT_MENUS)),HttpStatus.OK);
     }
 
-    @PostMapping
+   /* @PostMapping
     @Log("新增微信公众号菜单")
     @ApiOperation("新增微信公众号菜单")
     @PreAuthorize("@el.check('admin','wooshopWechatMenu:list')")
@@ -105,7 +104,7 @@ public class WooshopWechatMenuController {
             throw new BadRequestException(e.getMessage());
         }
         return new ResponseEntity<>(HttpStatus.CREATED);
-    }
+    }*/
 
     @PutMapping
     @Log("修改微信公众号菜单")
