@@ -48,6 +48,12 @@ wooshopxingyun-java 后端代码
 | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/admin3.png "在这里输入图片标题")                     | ![输入图片说明](https://demo.h5.wooshopxingyun.com/kaiyun/admin4.png "在这里输入图片标题")                     |
 
+#### 项目源码
+
+|     |   后端源码  |   前端源码  |
+|---  |--- | --- |
+|  码云   |   https://gitee.com/xingyunshop/xingyunshopjava   |   https://gitee.com/xingyunshop/eladmin-wooxingyunshop-ui   |
+|  GitHub   |  https://github.com/wooshopxingyun/wooshopxinyun-shop-java    |  https://github.com/wooshopxingyun/eladmin-wooxingyunshop-ui    |
 
 
 #### 核心依赖
